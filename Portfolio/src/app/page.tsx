@@ -31,8 +31,7 @@ export default function Home() {
         <HeroImage />
       </FramerWrapper>
 
-      {/* GITHUB BUTTON  */}
-      <GithubBtn />
+      
     </>
   );
 }
