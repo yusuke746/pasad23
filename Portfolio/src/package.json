@@ -1,0 +1,34 @@
+{
+  "name": "my-nextjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "@radix-ui/react-slot": "latest",
+    "framer-motion": "latest",
+    "class-variance-authority": "latest",
+    "@radix-ui/react-label": "latest",
+    "tailwind-merge": "latest",
+    "resend": "latest",
+    "@radix-ui/react-tooltip": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "24.3.1",
+    "@types/react": "19.1.12"
+  }
+}
