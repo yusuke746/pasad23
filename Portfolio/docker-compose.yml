@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  nginx:
+    build: .
+    container_name: nginx_container
+    ports:
+      - "80:80"
+    restart: always
+
+  portfolio:
+    build: .
+    container_name: portfolio_app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./portfolio:/app
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - nginx
+    restart: always
