@@ -41,10 +41,12 @@ type DockItemProps = {
 type DockLabelProps = {
   className?: string;
   children: React.ReactNode;
+  isHovered?: MotionValue<number>; // Add isHovered prop
 };
 type DockIconProps = {
   className?: string;
   children: React.ReactNode;
+  width?: MotionValue<number>; // Add width prop
 };
 
 type DocContextType = {
@@ -159,9 +161,10 @@ function DockItem({ children, className }: DockItemProps) {
       role='button'
       aria-haspopup='true'
     >
-      {Children.map(children, (child) =>
-        cloneElement(child as React.ReactElement, { width, isHovered })
-      )}
+      {Children.map(children, (child) => {
+        const typedChild = child as React.ReactElement<DockIconProps | DockLabelProps>;
+        return cloneElement(typedChild, { width, isHovered });
+      })}
     </motion.div>
   );
 }

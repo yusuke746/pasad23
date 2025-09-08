@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/workspace/pasad23/Portfolio/src/app/layout":["static/media/eafabf029ad39a43-s.p.woff2","static/media/c70bdcd7b2690f4d-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
