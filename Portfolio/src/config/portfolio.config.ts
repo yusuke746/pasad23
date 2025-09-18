@@ -10,7 +10,7 @@ export const portfolioConfig = {
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
+    blog: "/blog",
     twitter: "https://twitter.com/Taquiimam14",
     linkedin: "https://www.linkedin.com/in/taqui-imam",
     external: "https://tinyurl.com/MdTaquiImam",

@@ -1,10 +1,10 @@
 import { cn } from "@/lib/utils";
 import {
-  Facebook,
   Linkedin,
   Twitter,
   ExternalLink,
   Github,
+  Newspaper, // Added Newspaper icon for blog
 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
@@ -14,9 +14,9 @@ import { portfolioConfig } from "@/config/portfolio.config";
 const SocialLinks = () => {
   const links = [
     {
-      name: "Facebook",
-      link: portfolioConfig.socialLinks.facebook,
-      icon: <Facebook />,
+      name: "Blog",
+      link: portfolioConfig.socialLinks.blog,
+      icon: <Newspaper />,
     },
     {
       name: "Twitter",
