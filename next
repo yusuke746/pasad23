@@ -1,0 +1,7 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // ...既存の設定...
+  allowedDevOrigins: ['https://pasad23.com'],
+};
+
+module.exports = nextConfig;
