@@ -1,0 +1,10 @@
+
+> my-nextjs-app@0.1.0 start
+> next start -p 54037
+
+   ▲ Next.js 15.5.3
+   - Local:        http://localhost:54037
+   - Network:      http://172.17.0.4:54037
+
+ ✓ Starting...
+ ✓ Ready in 562ms
