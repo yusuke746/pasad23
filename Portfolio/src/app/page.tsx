@@ -1,7 +1,7 @@
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
-import GithubBtn from "@/components/animation/GithubBtn";
+
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
@@ -32,7 +32,7 @@ export default function Home() {
       </FramerWrapper>
 
       {/* GITHUB BUTTON  */}
-      <GithubBtn />
+      
     </>
   );
 }
