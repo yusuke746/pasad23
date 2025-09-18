@@ -1,9 +1,63 @@
+'use client';
+
+import { useState, useEffect, useRef } from 'react';
+
 export default function Page() {
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+  const sectionsRef = useRef([]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollToTop(true);
+      } else {
+        setShowScrollToTop(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target); // Only animate once
+          }
+        });
+      },
+      { threshold: 0.1 } // Trigger when 10% of the section is visible
+    );
+
+    sectionsRef.current.forEach((section) => {
+      if (section) {
+        observer.observe(section);
+      }
+    });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      sectionsRef.current.forEach((section) => {
+        if (section) {
+          observer.unobserve(section);
+        }
+      });
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div>
       {/* Header Section */}
       <header>
-        <h1>Philosophia - フィロソフィア</h1>
+        <h1 className="animated-title">Philosophia - フィロソフィア</h1>
         <nav>
           <ul>
             <li><a href="#corporate-message">Corporate Message</a></li>
@@ -18,7 +72,7 @@ export default function Page() {
       {/* Main Content */}
       <main>
         {/* Corporate Message Section */}
-        <section id="corporate-message">
+        <section id="corporate-message" className="fade-in-section" ref={(el) => (sectionsRef.current[0] = el)}>
           <h2>Corporate Message</h2>
           <h3>哲学の祖ソクラテスは、「ただ生きるのではなく、善く生きる」ことこそが、人が追い求めるべき、最大の命題だと説きました。</h3>
           <p>私たちは医療・介護の領域からこの命題に挑戦します。</p>
@@ -28,7 +82,7 @@ export default function Page() {
         </section>
 
         {/* Our Business Section */}
-        <section id="our-business">
+        <section id="our-business" className="fade-in-section" ref={(el) => (sectionsRef.current[1] = el)}>
           <h2>Our Business</h2>
           <h3>私たちの仕事</h3>
           <p>「慣れ親しんだ街で、安心して暮らせる」「病気とうまく付き合いながら、自分らしく過ごせる」。そんな“善く生きる毎日”を生みだすために、フィロソフィアでは訪問看護/療養施設運営などの事業を展開しています。</p>
@@ -38,7 +92,7 @@ export default function Page() {
         </section>
 
         {/* Recruit Section */}
-        <section id="recruit">
+        <section id="recruit" className="fade-in-section" ref={(el) => (sectionsRef.current[2] = el)}>
           <h2>Recruit</h2>
           <h3>看る人を見つめる。</h3>
           <p>一緒に働く仲間にも、善く生きる人生を送ってほしいから。 フィロソフィアでは、日々の暮らしにも幸せを感じながら、 胸を張って働ける訪問看護のあり方をつくっていきます。</p>
@@ -46,7 +100,7 @@ export default function Page() {
         </section>
 
         {/* News Section */}
-        <section id="news">
+        <section id="news" className="fade-in-section" ref={(el) => (sectionsRef.current[3] = el)}>
           <h2>News</h2>
           <h3>お知らせ News</h3>
           <ul>
@@ -59,7 +113,7 @@ export default function Page() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact">
+        <section id="contact" className="fade-in-section" ref={(el) => (sectionsRef.current[4] = el)}>
           <h2>Contact</h2>
           <h3>お問い合わせ</h3>
           <h4>Let’s talk</h4>
@@ -94,6 +148,25 @@ export default function Page() {
           <a href="#">x</a>
         </div>
       </footer>
+
+      {showScrollToTop && (
+        <button onClick={scrollToTop} style={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+          backgroundColor: '#ff6347',
+          color: 'white',
+          border: 'none',
+          borderRadius: '50%',
+          width: '50px',
+          height: '50px',
+          fontSize: '24px',
+          cursor: 'pointer',
+          zIndex: 1000
+        }}>
+          ↑
+        </button>
+      )}
     </div>
   );
 }
