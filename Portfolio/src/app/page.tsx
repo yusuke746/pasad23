@@ -1,6 +1,6 @@
 import SocialLinks from "@/components/SocialLinks";
 import HeroTexts from "@/components/HeroTexts";
-import HeroImage from "@/components/HeroImage";
+
 
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
@@ -21,15 +21,7 @@ export default function Home() {
         </div>
         <DownLoadResumeBtn />
       </FramerWrapper>
-      {/* RIGHT SIDE image  */}
-      <FramerWrapper
-        className="h-full w-[47%] relative block   max-lg:hidden"
-        y={0}
-        x={100}
-      >
-        {/* IMAGE  */}
-        <HeroImage />
-      </FramerWrapper>
+      
 
       {/* GITHUB BUTTON  */}
       
