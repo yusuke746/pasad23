@@ -11,7 +11,7 @@ export const portfolioConfig = {
   // Social Media Links
   socialLinks: {
     blog: "/blog",
-    twitter: "https://twitter.com/Taquiimam14",
+    youtube: "https://www.youtube.com/",
     linkedin: "https://www.linkedin.com/in/taqui-imam",
     external: "https://tinyurl.com/MdTaquiImam",
     github: "https://github.com/taqui-786", // Assuming this is the GitHub link
