@@ -43,7 +43,7 @@ export default async function Home() {
           <h1 className={styles.title}>長張最高！</h1>
           <p className={styles.description}>
             私たちは市場をリードしているグローバルテックカンパニーです。
-
+          </p>
 <style>{`
 .custom-link-list a {
   color: inherit;
@@ -60,7 +60,6 @@ export default async function Home() {
   <li><Link href="/inspection-targets">検満対象の登録</Link></li>
 </ul>
 
-          </p>
         </div>
         <Image
           className={styles.bgimg}
