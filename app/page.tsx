@@ -57,7 +57,7 @@ export default async function Home() {
 <ul className="custom-link-list" style={{ display: "flex", gap: "1em", justifyContent: "center", margin: "2em 0" }}>
   <li><Link href="/search">検索画面</Link></li>
   <li><Link href="/contractors">指定工事店の登録</Link></li>
-  <li><Link href="/contact">検満対象の登録</Link></li>
+  <li><Link href="/inspection-targets">検満対象の登録</Link></li>
 </ul>
 
           </p>
