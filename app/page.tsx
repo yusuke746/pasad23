@@ -43,24 +43,61 @@ export default async function Home() {
           <h1 className={styles.title}>長張最高！</h1>
           <p className={styles.description}>
             私たちは市場をリードしているグローバルテックカンパニーです。
-
+          </p>
 <style>{`
-.custom-link-list a {
-  color: inherit;
-  text-decoration: underline;
-  transition: color 0.2s;
+.custom-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: center;
+  margin: 2em 0;
+  list-style: none;
+  padding: 0;
 }
-.custom-link-list a:hover {
+.custom-link-button {
+  display: flex;
+  align-items: center;
+  background: #fff;
   color: #0070f3;
+  border: 2px solid #0070f3;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-weight: bold;
+}
+.custom-link-button:hover {
+  background: #e6f0fa;
+  color: #005bb5;
+}
+.custom-link-button img {
+  margin-right: 0.5em;
 }
 `}</style>
-<ul className="custom-link-list" style={{ display: "flex", gap: "1em", justifyContent: "center", margin: "2em 0" }}>
-  <li><Link href="/search">検索画面</Link></li>
-  <li><Link href="/contractors">指定工事店の登録</Link></li>
-  <li><Link href="/inspection-targets">検満対象の登録</Link></li>
+<ul className="custom-link-list">
+  <li>
+    <Link href="/search" className="custom-link-button">
+      <Image src="/search_icon.jpg" alt="検索アイコン" width={40} height={40} />
+      検索
+    </Link>
+  </li>
+  <li>
+    <Link href="/contractors" className="custom-link-button">
+      <Image src="/registered_contractor_icon.jpg" alt="指定工事店アイコン" width={40} height={40} />
+      指定工事店の登録
+    </Link>
+  </li>
+  <li>
+    <Link href="/inspection-targets" className="custom-link-button">
+      <Image src="/water_meter_replacement_icon.jpg" alt="検満対象アイコン" width={40} height={40} />
+      検満対象の登録
+    </Link>
+  </li>
 </ul>
 
-          </p>
         </div>
         <Image
           className={styles.bgimg}

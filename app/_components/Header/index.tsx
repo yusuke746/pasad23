@@ -10,11 +10,11 @@ export default function Header() {
 
 <Link href="/" className={styles.logoLink}>
   <Image
-    src="/logo.svg"
+    src="/water_meter_replacement_icon_final.jpg"
     alt="SIMPLE"
     className={styles.logo}
-    width={348}
-    height={133}
+    width={600}
+    height={230}
     priority
   />
 </Link>

@@ -17,7 +17,7 @@ export const revalidate = 60;
 export default function SearchLayout({ children }: Props) {
   return (
     <>
-      <Hero title="検索画面" sub="Search" />
+      <Hero title="検索" sub="Search" />
       <Sheet>{children}</Sheet>
     </>
   );
