@@ -42,13 +42,12 @@ export default function SearchPage() {
           <tr>
             <td colSpan={9} style={{ textAlign: "center", padding: 24, color: "#888" }}>データはまだありません</td>
           </tr>
-
-<div style={{ display: "flex", justifyContent: "center", marginTop: 32 }}>
-  <button type="button" style={{ padding: "12px 64px", fontSize: 16, minWidth: 240 }}>CSVダウンロード</button>
-</div>
-
         </tbody>
       </table>
+
+      <div style={{ display: "flex", justifyContent: "center", marginTop: 32 }}>
+        <button type="button" style={{ padding: "12px 64px", fontSize: 16, minWidth: 240 }}>CSVダウンロード</button>
+      </div>
     </section>
   );
 }
