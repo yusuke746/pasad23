@@ -16,12 +16,14 @@ export default function SearchPage() {
           <input type="text" placeholder="旧メーター番号" style={{ flex: "1 1 200px", padding: 8 }} />
           <input type="text" placeholder="新メーター番号" style={{ flex: "1 1 200px", padding: 8 }} />
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-          <label>交換年月日</label>
-          <input type="date" value={dateFrom} onChange={e => setDateFrom(e.target.value)} />
-          <span>～</span>
-          <input type="date" value={dateTo} onChange={e => setDateTo(e.target.value)} />
-          <button type="button" style={{ padding: "8px 24px", marginLeft: 8 }}>検索</button>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end", gap: 8 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginRight: "auto" }}>
+            <label>交換年月日</label>
+            <input type="date" value={dateFrom} onChange={e => setDateFrom(e.target.value)} />
+            <span>～</span>
+            <input type="date" value={dateTo} onChange={e => setDateTo(e.target.value)} />
+          </div>
+          <button type="button" style={{ padding: "8px 24px" }}>検索</button>
         </div>
       </form>
       <table style={{ width: "100%", borderCollapse: "collapse", background: "#fff" }}>
