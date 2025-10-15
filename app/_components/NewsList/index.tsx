@@ -18,7 +18,7 @@ export default function NewsList({ news }: Props) {
     <ul>
       {news.map((article) => (
         <li key={article.id} className={styles.list}>
-          <Link href={`/news/${article.id}`} className={styles.link}>
+          <span className={styles.link}>
             {article.thumbnail ? (
               <Image
                 src={article.thumbnail.url}
@@ -43,7 +43,7 @@ export default function NewsList({ news }: Props) {
                 <Date date={article.publishedAt ?? article.createdAt} />
               </dd>
             </dl>
-          </Link>
+          </span>
         </li>
       ))}
     </ul>
