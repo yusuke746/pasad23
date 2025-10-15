@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import Image from 'next/image'
+import Link from "next/link";
 
 import NewsList from '@/app/_components/NewsList'
 import ButtonLink from '@/app/_components/ButtonLink'
@@ -35,11 +36,30 @@ export default async function Home() {
   };
   return (
     <>
+
+
       <section className={styles.top}>
         <div>
           <h1 className={styles.title}>長張最高！</h1>
           <p className={styles.description}>
             私たちは市場をリードしているグローバルテックカンパニーです。
+
+<style>{`
+.custom-link-list a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.custom-link-list a:hover {
+  color: #0070f3;
+}
+`}</style>
+<ul className="custom-link-list" style={{ display: "flex", gap: "1em", justifyContent: "center", margin: "2em 0" }}>
+  <li><Link href="/search">検索画面</Link></li>
+  <li><Link href="/members">指定工事店の登録</Link></li>
+  <li><Link href="/contact">検満対象の登録</Link></li>
+</ul>
+
           </p>
         </div>
         <Image
@@ -51,13 +71,6 @@ export default async function Home() {
           priority
           sizes="100vw"
         />
-      </section>
-      <section className={styles.news}>
-        <h2 className={styles.newsTitle}>News</h2>
-        <NewsList news={data.contents} />
-        <div className={styles.newsLink}>
-          <ButtonLink href="/news">もっとみる</ButtonLink>
-        </div>
       </section>
     </>
   )

@@ -1,10 +1,430 @@
 
-> my-nextjs-app@0.1.0 start
-> next start -p 54037
+> my-next-project@0.1.0 dev
+> next dev
 
-   ▲ Next.js 15.5.3
-   - Local:        http://localhost:54037
-   - Network:      http://172.17.0.4:54037
+   ▲ Next.js 14.1.4
+   - Local:        http://localhost:51997
+   - Environments: .env
 
- ✓ Starting...
- ✓ Ready in 562ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Ready in 2.1s
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ○ Compiling / ...
+ ✓ Compiled / in 3.9s (671 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 579ms (336 modules)
+ ○ Compiling /news/[slug] ...
+ ✓ Compiled /news/[slug] in 674ms (683 modules)
+ ⨯ node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js (1:5763) @ eval
+ ⨯ Internal error: Error: fetch API response status: 404
+    at eval (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:5797)
+    at s (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3773)
+    at Object.eval [as next] (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3064)
+    at n (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:234)
+    at a (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:445)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+null
+ ⨯ node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js (1:5763) @ eval
+ ⨯ Internal error: Error: fetch API response status: 404
+    at eval (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:5797)
+    at s (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3773)
+    at Object.eval [as next] (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3064)
+    at n (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:234)
+    at a (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:445)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+null
+ ⨯ node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js (1:5763) @ eval
+ ⨯ Internal error: Error: fetch API response status: 404
+    at eval (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:5797)
+    at s (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3773)
+    at Object.eval [as next] (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3064)
+    at n (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:234)
+    at a (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:445)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+null
+ ⨯ node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js (1:5763) @ eval
+ ⨯ Internal error: Error: fetch API response status: 404
+    at eval (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:5797)
+    at s (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3773)
+    at Object.eval [as next] (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:3064)
+    at n (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:234)
+    at a (./node_modules/microcms-js-sdk/dist/esm/microcms-js-sdk.js:8:445)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+digest: "3099764581"
+null
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 393ms (616 modules)
+ ✓ Compiled in 131ms (336 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 142ms (336 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 149ms (336 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 111ms (336 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 97ms (336 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled /favicon.ico in 275ms (366 modules)
+ ✓ Compiled /news in 467ms (682 modules)
+ ✓ Compiled /members in 467ms (712 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 346ms (365 modules)
+ ⚠ Duplicate page detected. app/page.jsx and app/page.tsx resolve to /
+ ✓ Compiled in 707ms (662 modules)
+ ✓ Compiled /favicon.ico in 113ms (395 modules)
+ ✓ Compiled /news in 175ms (405 modules)
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 709ms (780 modules)
+ ✓ Compiled in 187ms (429 modules)
+ ✓ Compiled / in 317ms (435 modules)
+ ✓ Compiled in 705ms (749 modules)
+ ✓ Compiled in 318ms (404 modules)
+ ✓ Compiled in 229ms (404 modules)
+ ✓ Compiled in 318ms (404 modules)
+ ✓ Compiled in 439ms (717 modules)
+ ✓ Compiled in 265ms (402 modules)
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+    at AsyncLocalStorage.run (node:async_hooks:338:14)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+    at AsyncLocalStorage.run (node:async_hooks:338:14)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ⨯ app/page.tsx (41:7) @ Link
+ ⨯ ReferenceError: Link is not defined
+    at Home (./app/page.tsx:66:111)
+    at stringify (<anonymous>)
+digest: "2053225643"
+[0m [90m 39 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 40 |[39m [33m<[39m[33mul[39m style[33m=[39m{{ display[33m:[39m [32m"flex"[39m[33m,[39m gap[33m:[39m [32m"1em"[39m[33m,[39m justifyContent[33m:[39m [32m"center"[39m[33m,[39m margin[33m:[39m [32m"2em 0"[39m }}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 41 |[39m   [33m<[39m[33mli[39m[33m>[39m[33m<[39m[33mLink[39m href[33m=[39m[32m"/news"[39m[33m>[39m検索画面[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 42 |[39m   [33m<[39m[33mli[39m[33m>[39m指定工事店の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 43 |[39m   [33m<[39m[33mli[39m[33m>[39m検満対象の登録[33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m [90m 44 |[39m [33m<[39m[33m/[39m[33mul[39m[33m>[39m[0m
+ ✓ Compiled in 616ms (717 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /favicon.ico in 219ms (432 modules)
+ ✓ Compiled /news in 433ms (759 modules)
+ ⚠ Fast Refresh had to perform a full reload when app/_components/Pagination/index.module.css, app/_components/NewsList/index.module.css, app/_components/Category/index.module.css, app/_components/Date/index.module.css, app/_components/SearchField/index.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 1024ms (759 modules)
+ ✓ Compiled in 163ms (414 modules)
+ ✓ Compiled /favicon.ico in 110ms (444 modules)
+ ✓ Compiled in 460ms (729 modules)
+ ✓ Compiled in 486ms (729 modules)
+ ✓ Compiled /favicon.ico in 266ms (444 modules)
+ ✓ Compiled in 562ms (759 modules)
+ ✓ Compiled in 250ms (414 modules)
+ ✓ Compiled /favicon.ico in 121ms (444 modules)
+ ✓ Compiled in 219ms (444 modules)
+ ✓ Compiled in 474ms (708 modules)
+ ✓ Compiled /not-found in 0ms (402 modules)
+ ✓ Compiled in 1ms (404 modules)
+ ✓ Compiled /favicon.ico in 260ms (434 modules)
+ ✓ Compiled in 198ms (434 modules)
+ ✓ Compiled /search in 375ms (746 modules)
+ ✓ Compiled in 625ms (710 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 486ms (681 modules)
+ ✓ Compiled in 599ms (691 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /favicon.ico in 119ms (403 modules)
+ ✓ Compiled in 355ms (721 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 420ms (721 modules)
+ ✓ Compiled in 179ms (721 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 283ms (721 modules)
+ ✓ Compiled in 614ms (681 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /favicon.ico in 119ms (403 modules)
+ ✓ Compiled in 437ms (681 modules)
+ ✓ Compiled in 414ms (681 modules)
+ ✓ Compiled /favicon.ico in 439ms (403 modules)
+ ⨯ ./app/search/layout.tsx
+Error: 
+  [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/getting-started/react-essentials#the-use-client-directive
+  [31m|[0m 
+  [31m|[0m 
+   ,-[[36;1;4m/workspace/pasad23/app/search/layout.tsx[0m:4:1]
+ [2m4[0m | import Hero from '@/app/_components/Hero';
+ [2m5[0m | import Sheet from '@/app/_components/Sheet';
+ [2m6[0m | 
+ [2m7[0m | export const metadata = {
+   : [31;1m             ^^^^^^^^[0m
+ [2m8[0m |   title: '検索画面',
+ [2m9[0m | };
+   `----
+
+Import trace for requested module:
+./app/search/layout.tsx
+ ○ Compiling /_error ...
+ ⨯ ./app/search/layout.tsx
+Error: 
+  [31mx[0m You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/
+  [31m|[0m docs/getting-started/react-essentials#the-use-client-directive
+  [31m|[0m 
+  [31m|[0m 
+   ,-[[36;1;4m/workspace/pasad23/app/search/layout.tsx[0m:4:1]
+ [2m4[0m | import Hero from '@/app/_components/Hero';
+ [2m5[0m | import Sheet from '@/app/_components/Sheet';
+ [2m6[0m | 
+ [2m7[0m | export const metadata = {
+   : [31;1m             ^^^^^^^^[0m
+ [2m8[0m |   title: '検索画面',
+ [2m9[0m | };
+   `----
+
+Import trace for requested module:
+./app/search/layout.tsx
+ ✓ Compiled /_error in 712ms (883 modules)
+ ✓ Compiled /not-found in 292ms (451 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 681ms (843 modules)
+ ✓ Compiled /favicon.ico in 355ms (442 modules)
