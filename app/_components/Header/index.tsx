@@ -10,7 +10,7 @@ export default function Header() {
 
 <Link href="/" className={styles.logoLink}>
   <Image
-    src="/water_utility_home_meter.jpg"
+    src="/water_meter_replacement_icon_final.jpg"
     alt="SIMPLE"
     className={styles.logo}
     width={600}

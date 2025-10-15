@@ -8,7 +8,7 @@ export default function SearchPage() {
 
   return (
     <section className={styles.news}>
-      <h1 className={styles.newsTitle} style={{ marginBottom: 24 }}>検索画面</h1>
+      <h1 className={styles.newsTitle} style={{ marginBottom: 24 }}>検索</h1>
       <form style={{ display: "flex", flexDirection: "column", gap: 16, marginBottom: 32 }}>
         <div style={{ display: "flex", gap: 16 }}>
           <input type="text" placeholder="お客様番号" style={{ flex: "1 1 200px", padding: 8 }} />
